@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+
+                </ul>
+                <i class="fas fa-bars" style="font-size:30px; color:white"  onclick="openmenu()"></i>
+    
+
+            </nav>
+
+            <div class="header-text">
+                <p> Software Engineering Undergraduate</p>
+                <h1>Hi, Im <span>Kavindi</span></spa><br> From Sri Lanka</h1>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- ----about----- -->
+
+
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>I'm Kavindi Fernando, a software engineering undergraduate at SLIIT. With a passion for
+                        technology, I've gained a strong foundation in programming languages, software development, and
+                        problem-solving. I thrive on challenging projects that require creativity and critical thinking,
+                        and I'm always eager to learn and expand my skills. Collaboration and effective communication
+                        are key aspects I've learned through group projects, while my focus on user-centric designs
+                        ensures intuitive and delightful experiences. I stay updated with industry trends and strive to
+                        deliver efficient solutions. Welcome to my portfolio website, where you can explore my projects
+                        and achievements. Let's connect and discuss potential collaborations!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>React</span><br>Web/App Designing</li>
+                            <li><span>JavaScript</span><br>Front-end Development</li>
+                            <li><span>Python</span><br>Backend Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>ABC Company</span><br>Software Engineer Intern</li>
+                            <li><span>XYZ Agency</span><br>Web Developer</li>
+                            <li><span>123 Startup</span><br>Full Stack Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor's Degree in Software Engineering</span><br>SLIIT</li>
+                            <li><span>High School Diploma</span><br>ABC School</li>
+                            <li><span>Online Certifications</span><br>Various platforms</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------services-------- -->
+    <div id="services">
+        <div class="container">
+
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealing and user-friendly websites that cater to your specific needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-mobile-alt"></i>
+                    <h2>Mobile App Development</h2>
+                    <p>Designing and developing cross-platform mobile applications to reach a wider audience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-cogs"></i>
+                    <h2>Backend Development</h2>
+                    <p>Building robust and scalable server-side solutions to power your web applications.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- ------portfolio------ -->
+
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Discover and enjoy your favorite music with this intuitive and feature-rich music
+                            application.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Showcase your skills and projects with a personalized portfolio website that highlights your
+                            accomplishments.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Data Visualization</h3>
+                        <p>Present complex data in a visually appealing and interactive manner with data visualization
+                            techniques.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn"> See More</a>
+
+        </div>
+    </div>
+
+
+    <!-- -----contact------ -->
+
+    <div id="container">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i>kavi.fernando2001@gmail.com</p>
+                    <p> <i class="fas fa-phone"></i>0726212016</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email" placeholder="Your Email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="Message" placeholder="Your Message" required></textarea>
+
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg">  </span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            Copyright &copy; 2023 Kavindi <i class="fas fa-heart"></i> All rights reserved.
+        </div>
+        
+        
+        
+        
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyLHFw_ACRYsL9EhjxPoLiJO5gge104NWqHDBTh6s9BGisGAUDF33Agk6bhNcIqeKJg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
